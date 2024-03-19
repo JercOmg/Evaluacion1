@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+
+header {
+background-color: gray;
+font-family: Arial;
+padding: 0px;
+margin: 0px;
+}
+
+header h1{
+    margin: 0px;
+    padding: 10px;
+    font-size: 250%;
+    text-align: middle;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(167, 167, 167);
+}
+
+.menu li{
+    float: left;
+    border-right: 1px solid black;
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+#Inicio{
+    padding: 20px;
+    text-align: center;
+}
+
+.Inicio img {
+    width: auto;
+    height: 100;
+}
+
+#mensaje {
+    font-size: 18px;
+}
